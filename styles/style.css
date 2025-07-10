@@ -111,3 +111,33 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+/* shedual part styles  */
+.shedual-container{
+    max-width: 1290px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.shedual-item{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0));
+    padding: 100px 385px;
+    border-radius: 15px;
+}
+.shedual-item p{
+    font-size: 32px;
+    font-weight: 600;
+}
+.shedual-item p span{
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 600;
+}
+.btn-primary{
+    padding: 16px 32px;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
