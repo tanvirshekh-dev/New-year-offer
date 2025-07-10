@@ -1,0 +1,113 @@
+/* Merriweather font link */
+
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* inter font link  */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared style */
+.text-center{
+    text-align: center;
+}
+
+
+/* header section styles  */
+.header-section{
+    background-image: url(../images/Banner\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 537px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header-title{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.header-heading{
+    font-size: 72px;
+    color: #FFFFFF;
+    font-weight: 800;
+    line-height: 95px;
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+/* category section styles  */
+.category{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.category-heading{
+    font-size: 85px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 40px;
+}
+.category-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.category-sub-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+/* party section styles  */
+.party{
+    background-image: url(../images/Vectorrr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1180px;
+    margin: 0 auto;
+    /* height: 537px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 120px 0px 160px 120px;
+    border-radius: 15px;
+}
+.party-title{
+    font-size: 64px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    max-width: 640px;
+    margin: 0px;
+}
+.party-pera{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 30px;
+    max-width: 690px;
+    padding: 24px 0px;
+}
+.party-link{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
