@@ -231,3 +231,34 @@
     max-width: 1180px;
     margin: 0 auto;
 }
+/* portfolio part styles */
+.portfolio-container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.portfolio-img-area{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+    margin-bottom: 120px;
+}
+.portfolio-img-area img{
+    width: 375px;
+}
+.portfolio-title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF0000;
+    padding-top: 120px;
+    margin: 0px;
+}
+.portfolio-heading{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+.portfolio-pera{
+    max-width: 890px;
+}
+/* subscribe section styles */
