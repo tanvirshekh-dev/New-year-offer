@@ -262,3 +262,42 @@
     max-width: 890px;
 }
 /* subscribe section styles */
+.subscribe-container{
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 0px;
+    margin-bottom: 120px;
+    border-radius: 15px;
+}
+.subscribe-heading{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 40px 0px 20px 0px;
+}
+.subscribe-pera{
+    line-height: 35px;
+    max-width: 890px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.subscribe-input-area input[type="email"]{
+    padding: 25px 25px 25px 30px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    width: 400px;
+    margin-right: 0px;
+}
+.subscribe-input-area .btn-secondary{
+    padding: 17px 30px 22px 25px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+}
