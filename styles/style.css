@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Merriweather font link */
 
 .merriweather-font {
@@ -300,4 +306,60 @@
     font-size: 20px;
     font-weight: 600;
     margin: 0px;
+}
+/* footer are styles */
+.footer-container{
+    background-color: rgba(7, 2, 17, 1);
+    color: white;
+}
+.footer-item-01{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 120px 30px 120px;
+}
+.footer-item-text{
+    font-weight: 500;
+    font-size: 24px;
+    width: 375px;
+    line-height: 40px;
+}
+.footer-social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social-icon p{
+   margin: 0px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   gap: 20px;
+   padding-bottom: 10px;
+}
+.footer-container hr{
+    max-width: 1180px;
+    margin: 0 auto;
+    color: rgba(245, 25, 25, 0.15);
+}
+.footer-item-02{
+    padding: 48px 550px;
+    display: flex;
+    gap: 24px;
+}
+.footer-item-03{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px 120px 50px;
+}
+.footer-item-03 p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 140px;
+}
+.footer-item-03 a{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
 }
