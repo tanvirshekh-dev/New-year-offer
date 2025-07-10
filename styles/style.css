@@ -17,7 +17,14 @@
 .text-center{
     text-align: center;
 }
-
+.secondary-description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: 400;
+}
+.padding-left{
+    padding-left: 30px;
+}
 
 /* header section styles  */
 .header-section{
@@ -79,7 +86,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1180px;
+    max-width: 1080px;
     margin: 0 auto;
     /* height: 537px; */
     display: flex;
@@ -113,19 +120,21 @@
 }
 /* shedual part styles  */
 .shedual-container{
-    max-width: 1290px;
+    max-width: 1180px;
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 120px;
 }
 .shedual-item{
-    background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0));
-    padding: 100px 385px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    padding: 100px 340px;
     border-radius: 15px;
 }
 .shedual-item p{
     font-size: 32px;
     font-weight: 600;
+    margin: 20px 0px;
+
 }
 .shedual-item p span{
     color: #FF0000;
@@ -140,4 +149,43 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+}
+
+/* coming soon styles  */
+.coming-soon-container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.coming-soon-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.coming-soon-item{
+    max-width: 390px;
+    margin: 0 auto;
+   margin-right: 30px;
+}
+.coming-soon-title{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.coming-soon-heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color: black;
+    margin: 0px;
+}
+.coming-soon-item-img{
+    border: 10px solid red;
+    padding: 20px;
+    border-radius: 50%;
+}
+.coming-soon-sub-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
 }
